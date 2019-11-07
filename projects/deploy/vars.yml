@@ -1,2 +1,2 @@
-deploy_to   : '/home/wwwroot'
+deploy_to   : '/data/x/tools'
 git_repo    : 'git@github.com:lloooo/deploy.git'

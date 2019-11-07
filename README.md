@@ -43,7 +43,7 @@
  ```
  git tag 0.0.0.1
  git push origin --tags
- rocket_pub.sh --prj deploy --tag 0.0.0.1 --host dev
+ ./rocket_pub.sh --prj deploy --tag 0.0.0.1 --host dev
 
  ```
 
