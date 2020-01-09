@@ -1,0 +1,2 @@
+deploy_to   : '/home/wwwroot'
+git_repo    : 'git@github.com:lloooo/laravel-auth.git'

@@ -20,5 +20,5 @@
 
 - name: execute shell command *after cmd*
   command: /bin/sh  {{ after_cmd }} chdir="{{ deploy_to }}/{{ deploy_name }}"
-  sudo: yes
+  become: yes
   when: after_cmd is defined and after_cmd != ''
